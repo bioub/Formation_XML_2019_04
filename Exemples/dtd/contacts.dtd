@@ -1,0 +1,7 @@
+<!ELEMENT contacts (contact)+>
+<!ELEMENT contact (prenom,nom,adresse)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT adresse ((ville,codePostal)|(codePostal,ville))>
+<!ELEMENT ville (#PCDATA)>
+<!ELEMENT codePostal (#PCDATA)>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="contacts.xsd">
+	<contact>
+		<prenom>Jean</prenom>
+		<nom>Dupont</nom>
+		<adresse>
+			<ville>Paris</ville>
+			<codePostal>75013</codePostal>
+		</adresse>
+	</contact>
+	<contact>
+		<prenom>Eric</prenom>
+		<nom>Martin</nom>
+		<adresse>
+			<ville>Marseille</ville>
+			<codePostal>13001</codePostal>
+		</adresse>
+	</contact>
+</contacts>
